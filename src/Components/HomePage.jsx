@@ -6,7 +6,7 @@ import { FloatingDockDemo} from './FloatingDockDemo'
 function HomePage() {
   return (
     <div>
-     <FloatingDockDemo/>
+        <FloatingDockDemo />
       <HeroScrollDemo/><br/>
       <TabsDemo/><br/>
     </div>

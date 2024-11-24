@@ -4,6 +4,7 @@ import { FloatingDock } from "./UI/floating-dock";
 import {
   IconBrandGithub,
   IconBrandX,
+  IconBrandLinkedin,
   IconExchange,
   IconHome,
   IconNewSection,
@@ -54,22 +55,22 @@ export function FloatingDockDemo() {
     },
 
     {
-      title: "Twitter",
+      title: "Linkedin",
       icon: (
-        <IconBrandX className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+        <IconBrandLinkedin className="h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
-      href: "#",
+      href: "https://www.linkedin.com/in/sahil-panwar-715b27250/",
     },
     {
       title: "GitHub",
       icon: (
         <IconBrandGithub className="h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
-      href: "#",
+      href: "https://github.com/sahil4430",
     },
   ];
   return (
-    (<div className="flex items-center justify-center h-[35rem] w-full">
+    (<div className="flex justify-center h-[0rem] w-full m-8 bg-gray-50">
       <FloatingDock
         // only for demo, remove for production
         mobileClassName="translate-y-20"
