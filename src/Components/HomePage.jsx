@@ -1,7 +1,7 @@
 import React from 'react'
-import { HeroScrollDemo } from './Hero'
-import { TabsDemo } from './Project'
-import { FloatingDockDemo} from './FloatingDockDemo'
+import { HeroScrollDemo } from './UI/hero/Hero'
+import { TabsDemo } from './UI/project/Project'
+import { FloatingDockDemo} from './UI/navbar/FloatingDockDemo'
 
 function HomePage() {
   return (
