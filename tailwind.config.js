@@ -10,6 +10,9 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    fontFamily: {
+      sans: ['"Public Sans"', 'sans-serif'], 
+    },
     colors: {
       primary: import.meta.env.COLOR
    }
