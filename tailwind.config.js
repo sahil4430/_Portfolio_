@@ -15,7 +15,15 @@ module.exports = {
     },
     colors: {
       primary: import.meta.env.COLOR
-   }
+   },
+   extend: {
+    backgroundImage: {
+      'black-gradient': 'linear-gradient(to right, #1E1E1E, #121212)',
+    },
+    gradients: {
+      'black-theme': 'linear-gradient(90deg, #ffffff, #333333, #ffffff)',
+    },
+  },
     
   },
   plugins: [],
