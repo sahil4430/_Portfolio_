@@ -13,13 +13,34 @@
     --foreground: #ededed;
   }
 }
+::-webkit-scrollbar {
+  width: 12px; /* Customize the scrollbar width */
+}
 
+::-webkit-scrollbar-track {
+  background: #333; /* Customize the scrollbar track */
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888; /* Customize the scrollbar thumb */
+  border-radius: 4rem;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Customize the scrollbar thumb on hover */
+}
 body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
   background-color: black;
    color: aliceblue;
+   overflow-x: hidden;
+   justify-content: center;
+  align-items: center;
+  align-content: center;
+  
 }
 
 .no-visible-scrollbar {

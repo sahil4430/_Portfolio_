@@ -7,7 +7,7 @@ import InerHero from "./Iner_hero";
 export function HeroScrollDemo() {
   return (
     (<div className="flex flex-col overflow-hidden ">
-      <ContainerScroll
+      <ContainerScroll 
         titleComponent={
           <>
             <h1 className="text-4xl font-semibold text-black dark:text-white">
