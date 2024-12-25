@@ -3,9 +3,10 @@ import Image from 'next/image';
 function InerHero() {
   return (
     <>
-      <div className="grid grid-rows-2 grid-flow-col gap-0 ">
+      <div className="grid grid-rows-1
+       grid-flow-col gap-0 ">
         {/* First Row */}
-        <div className="font-bold h-fit w-64 my-6 rounded-3xl p-6 bg-black-gradient ">
+        <div className="font-bold h-fit w-64 my-8 rounded-3xl p-5 bg-black-gradient ">
           <Image className='w-60 rounded-2xl align-middle '
         src='/my.jpg' alt='my pic'
         width={1000}
@@ -14,8 +15,7 @@ function InerHero() {
 
         </div>
         <div className="font-bold col-start-2 col-span-2 ">
-          <div className='grid grid-rows-2 grid-flow-col gap-0'>
-
+          <div className='grid grid-rows-0 grid-flow-col gap-0'>
             {/* row 1 with icons */}
           <div className="col-span-2 gap-0 ...">
             <div className='flex flex-row my-4 '>
@@ -25,6 +25,7 @@ function InerHero() {
             <Image className='w-10 h-fit mx-4 rounded-2xl opacity-55'src="/images 2.png" alt='icon'width={1000}
             height={760}/>
             </div> 
+
             {/* container with summary */}
            <div className=" text-left 
            rounded-3xl mx-7 gap-0
@@ -39,11 +40,20 @@ function InerHero() {
             </article>
            </div>
           </div>
-           
           </div>
         </div>
-           
       </div>
+       {/* row 2  */}
+       <div className='grid grid-cols-2 gap-10  px-10 my-2'>
+            <div className='text-left 
+           rounded-3xl  gap-0
+           bg-black-gradient p-3'>
+              <h6 className="text-sm">EXPERINCE</h6>
+            </div>
+            <div className='text-left 
+           rounded-3xl  gap-0
+           bg-black-gradient' >hello</div>
+          </div>
     </>
   );
 }
