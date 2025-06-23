@@ -35,24 +35,24 @@ export function FloatingDockDemo() {
       ),
       href: "#",
     },
-    {
-      title: "Aceternity UI",
-      icon: (
-        <img
-          src="https://assets.aceternity.com/logo-dark.png"
-          width={20}
-          height={20}
-          alt="Aceternity Logo" />
-      ),
-      href: "#",
-    },
-    {
-      title: "Changelog",
-      icon: (
-        <IconExchange className="h-full w-full text-neutral-500 dark:text-neutral-300" />
-      ),
-      href: "#",
-    },
+    // {
+    //   title: "Aceternity UI",
+    //   icon: (
+    //     <img
+    //       src="https://assets.aceternity.com/logo-dark.png"
+    //       width={20}
+    //       height={20}
+    //       alt="Aceternity Logo" />
+    //   ),
+    //   href: "#",
+    // },
+    // {
+    //   title: "Changelog",
+    //   icon: (
+    //     <IconExchange className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+    //   ),
+    //   href: "#",
+    // },
 
     {
       title: "Linkedin",
@@ -70,7 +70,7 @@ export function FloatingDockDemo() {
     },
   ];
   return (
-    (<div className="flex justify-center h-[0rem] w-full m-8 bg-gray-50">
+    (<div className="flex justify-center h-[12rem] w-full m-8 bg-gray-50">
       <FloatingDock
         // only for demo, remove for production
         mobileClassName="translate-y-20"

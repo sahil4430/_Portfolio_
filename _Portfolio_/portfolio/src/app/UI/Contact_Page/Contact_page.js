@@ -9,7 +9,7 @@ import {
   IconBrandOnlyfans,
 } from "@tabler/icons-react";
 
-export function SignupFormDemo() {
+export function ContactFormDemo() {
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log("Form submitted");
