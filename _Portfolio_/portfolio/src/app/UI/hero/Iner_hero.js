@@ -202,7 +202,7 @@ function InerHero() {
   </div>
 
   {/* Right: Credentials */}
-  <div className='rounded-3xl bg-black-gradient p-5 text-white flex flex-col justify-between col-span-1'>
+  <div className='rounded-3xl bg-black-gradient p-5 text-white flex flex-col justify-between col-span-1' onClick={() => window.open('https://drive.google.com/file/d/1v9CRMPFf3KwhODuyR1jxPIMzqGeOcfru/view?usp=drive_link', '_blank')}>
     
     <div className="text-gray-400 text-xs mt-28">MORE ABOUT ME</div>
     <div className="text-lg font-semibold">Credentials</div>
