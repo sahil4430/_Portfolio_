@@ -176,7 +176,7 @@ function InerHero() {
               <p className="text-gray-400 text-xs opacity-60">upto 12th</p>
             </div>
             <div>
-              <p className="text-gray-400 text-xs opacity-60">2022 - 2025</p>
+              <p className="text-gray-400 text-xs opacity-60">2022 - Present</p>
               <p className="font-semibold">MM(DU)</p>
               <p className="text-gray-400 text-xs opacity-60">B.Tech C.S.E</p>
             </div>
