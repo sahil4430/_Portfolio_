@@ -28,13 +28,13 @@ export const Timeline = ({
     (<div
       className="w-full bg-white dark:bg-neutral-950 font-sans md:px-10"
       ref={containerRef}>
-      <div className="max-w-7xl mx-auto py-20 px-4 md:px-8 lg:px-10">
+      <div className="max-w-7xl mx-auto py-1 px-4 md:px-8 lg:px-10">
         <h2 className="text-lg md:text-4xl mb-4 text-black dark:text-white max-w-4xl">
           Milestones in My Journey
         </h2>
         <p
-          className="text-neutral-700 dark:text-neutral-300 text-sm md:text-base max-w-sm">
-          From day one to today, here's how my experience and growth unfolded during my time with in College.
+          className="text-neutral-700 dark:text-neutral-300 text-xl md:text-base max-w-lg">
+          From international recognition to unforgettable hackathon memories, here’s how my growth and experiences took shape throughout college.
         </p>
       </div>
       <div ref={ref} className="relative max-w-7xl mx-auto pb-20">
@@ -52,12 +52,10 @@ export const Timeline = ({
                 {item.title}
               </h3>
             </div>
+           
 
             <div className="relative pl-20 pr-4 md:pl-4 w-full">
-              <h3
-                className="md:hidden block text-2xl mb-4 text-left font-bold text-neutral-500 dark:text-neutral-500">
-                {item.title}
-              </h3>
+
               {item.content}{" "}
             </div>
           </div>
@@ -77,13 +75,13 @@ export const Timeline = ({
           className="absolute md:left-8 left-8 top-0 overflow-hidden w-[2px] bg-[linear-gradient(to_bottom,var(--tw-gradient-stops))] from-transparent from-[0%] via-neutral-200 dark:via-neutral-700 to-transparent to-[99%]  [mask-image:linear-gradient(to_bottom,transparent_0%,black_10%,black_90%,transparent_100%)] ">
           <motion.div
             style={{
-                position: "absolute",
-                inset: "0 auto auto 0", // inset-x-0 top-0 equivalent
-                width: "2px",
-                height: heightTransform, // Use heightTransform dynamically here
-                opacity: opacityTransform, // Use opacityTransform dynamically here
-                background: "linear-gradient(to top, #a855f7 0%, #3b82f6 10%, transparent 100%)", // Purple to blue to transparent
-                borderRadius: "9999px"
+              position: "absolute",
+              inset: "0 auto auto 0", // inset-x-0 top-0 equivalent
+              width: "2px",
+              height: heightTransform, // Use heightTransform dynamically here
+              opacity: opacityTransform, // Use opacityTransform dynamically here
+              background: "linear-gradient(to top, #a855f7 0%, #3b82f6 10%, transparent 100%)", // Purple to blue to transparent
+              borderRadius: "9999px"
             }}
             className="absolute inset-x-0 top-0  w-[2px] bg-gradient-to-t from-purple-500 via-blue-500 to-transparent from-[0%] via-[10%] rounded-full" />
         </div>

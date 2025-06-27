@@ -9,7 +9,7 @@ export function TimelineDemo() {
       content: (
         <div>
           <p
-            className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
+            className="text-neutral-800 dark:text-neutral-200 text-sm md:text-base font-semibold mb-2">
             Secured a finalist spot in a highly competitive international hackathon
           </p>
           <div className="grid grid-cols-2 gap-4">
@@ -42,99 +42,92 @@ export function TimelineDemo() {
       ),
     },
     {
-      title: "Early 2023",
+      title: "That December I Still Brag About",
       content: (
         <div>
           <p
-            className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
-            I usually run out of copy, but when I see content this big, I try to
-            integrate lorem ipsum.
+            className="text-neutral-800 dark:text-neutral-200 text-sm md:text-base font-semibold mb-2">
+            Achieved 1st Runner-Up in Smart India Hackathon (SIH) 2023, tackling real-world challenges with innovative solutions on a national stage.
           </p>
           <p
-            className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
-            Lorem ipsum is for people who are too lazy to write copy. But we are
-            not. Here are some more example of beautiful designs I built.
+            className="text-blue-600 dark:text-blue-400 italic text-sm md:text-base font-medium mb-8">
+            That was the moment it clicked — this wasn’t just about code anymore; it was about impact.
           </p>
           <div className="grid grid-cols-2 gap-4">
             <Image
-              src="https://assets.aceternity.com/pro/hero-sections.png"
+              src="/Sih1.jpeg"
               alt="hero template"
               width={500}
               height={500}
               className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]" />
             <Image
-              src="https://assets.aceternity.com/features-section.png"
+              src="/sih2.jpeg"
               alt="feature template"
               width={500}
               height={500}
               className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]" />
             <Image
-              src="https://assets.aceternity.com/pro/bento-grids.png"
+              src="/sih3.jpeg"
               alt="bento template"
               width={500}
               height={500}
               className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]" />
             <Image
-              src="https://assets.aceternity.com/cards.png"
+              src="/sih4.jpeg"
               alt="cards template"
               width={500}
               height={500}
               className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]" />
+              
           </div>
         </div>
       ),
     },
     {
-      title: "Changelog",
+      title: "Terminal Tales",
       content: (
         <div>
-          <p
-            className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-4">
-            Deployed 5 new components on Aceternity today
-          </p>
-          <div className="mb-8">
-            <div
-              className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
-              ✅ Card grid component
-            </div>
-            <div
-              className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
-              ✅ Startup template Aceternity
-            </div>
-            <div
-              className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
-              ✅ Random file upload lol
-            </div>
-            <div
-              className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
-              ✅ Himesh Reshammiya Music CD
-            </div>
-            <div
-              className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
-              ✅ Salman Bhai Fan Club registrations open
-            </div>
-          </div>
+          <p className="text-neutral-800 dark:text-neutral-200 text-sm md:text-base font-semibold mb-2">
+      Reflecting on some unforgettable hackathon moments — the grind, the glory, and the 3 AM Maggi.
+    </p>
+    <div className="mb-8">
+      <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
+        ✅ Slept under the desk (true innovation needs comfort)
+      </div>
+      <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
+        ✅ Survived 36 hours on caffeine and chaos
+      </div>
+      <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
+        ✅ Debugged a bug that wasn’t even mine 🫠
+      </div>
+      <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
+        ✅ Won a hackathon without knowing we were winning 😅
+      </div>
+      <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
+        ✅ Made lifelong friends... and a project that kinda still works
+      </div>
+    </div>
           <div className="grid grid-cols-2 gap-4">
             <Image
-              src="https://assets.aceternity.com/pro/hero-sections.png"
+              src="/other.jpeg"
               alt="hero template"
               width={500}
               height={500}
               className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]" />
             <Image
-              src="https://assets.aceternity.com/features-section.png"
+              src="/other1.jpeg"
               alt="feature template"
               width={500}
               height={500}
               className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]" />
             <Image
-              src="https://assets.aceternity.com/pro/bento-grids.png"
+              src="/other2.jpeg"
               alt="bento template"
               width={500}
               height={500}
               className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]" />
             <Image
-              src="https://assets.aceternity.com/cards.png"
+              src="/other3.jpeg"
               alt="cards template"
               width={500}
               height={500}

@@ -88,37 +88,36 @@ import Image from 'next/image';
 function InerHero() {
   return (
     <>
-      <div className="grid grid-rows-1 grid-flow-col gap-0 md:grid-cols-2 lg:grid-cols-3">
+      <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
         {/* First Row */}
-               <div className="font-bold h-fit w-full sm:w-60 md:w-74 lg:w-80 rounded-3xl p-5 bg-black-gradient">
-          <Image className='w-full sm:w-60 md:w-74 lg:w-80 rounded-2xl align-middle'
-            src='/my.jpg' alt='my pic'
-            width={1000}
-            height={760} />
+               <div className="font-bold h-fit w-full sm:w-60 md:w-74 lg:w-80 rounded-3xl p-4 sm:p-5 bg-black-gradient mx-auto">
+          <Image className='w-full rounded-2xl object-cover' src='/my.jpg' alt='my pic' width={1000} height={760}/>
         </div>
         <div className="font-bold col-start-2 col-span-2">
           <div className='grid grid-rows-0 grid-flow-col gap-0'>
             {/* row 1 with icons */}
-            <div className="col-span-2 gap-0">
-              <div className='flex flex-row my-4'>
-                <Image className='w-10 h-fit mx-4 rounded-2xl opacity-55' src="/images 2.png" alt='icon' width={1000}
-                  height={760} />
-                <h5 className='text-xl md:text-3xl lg:text-5xl font-sans antialiased font-semibold'>SELF-SUMMARY</h5>
-                <Image className='w-10 h-fit mx-4 rounded-2xl opacity-55' src="/images 2.png" alt='icon' width={1000}
-                  height={760} />
-              </div>
+            <div className="font-bold col-span-1 sm:col-start-2 sm:col-span-2 mt-4 sm:mt-0">
+              <div className='flex flex-col sm:flex-row items-center justify-center my-4'>
+                  <Image className='w-6 h-6 sm:w-10 sm:h-fit mx-2 sm:mx-4 rounded-2xl opacity-55' 
+                  src="/images 2.png" alt='icon' width={1000} height={760} />
+                  <h5 className='text-lg sm:text-xl md:text-3xl lg:text-5xl font-sans antialiased 
+                  font-semibold text-center sm:text-left'>SELF-SUMMARY</h5>
+                <Image className='w-6 h-6 sm:w-10 sm:h-fit mx-2 sm:mx-4 rounded-2xl opacity-55' 
+                src="/images 2.png" alt='icon' width={1000}       height={760} /></div>
 
               {/* container with summary */}
-              <div className="text-left rounded-3xl mx-2 md:mx-7 gap-0 bg-black-gradient">
-                <Image className='w-7 h-fit mx-5 rounded-2xl opacity-55' src="/icon.png" alt='icon'
-                  width={1000}
-                  height={760} />
-                <article className='text-pretty p-2 md:p-5'>
-                  <h6 className='text-xl md:text-2xl lg:text-3xl font-medium font-sans'>Sahil Panwar</h6>
-                  <p className='text-xs md:text-sm lg:text-base font-light font-sans opacity-80'>I’m Sahil, a passionate tech enthusiast pursuing BTech in Computer Science. Skilled in React, Flutter, and UI/UX, I’m a GDSC core member, hackathon winner, and former Semi Hyphen intern, focused on creating impactful digital solutions.
-                  </p>
-                </article>
-              </div>
+              <div className="text-left rounded-3xl mx-2 sm:mx-7 bg-black-gradient">
+                <div className="flex items-center px-3 pt-3">
+                  <Image className='w-5 sm:w-7 h-fit mr-3 rounded-2xl opacity-55' 
+                  src="/icon.png" alt='icon' width={1000} height={760} />
+                   <h6 className='text-base sm:text-xl md:text-2xl lg:text-3xl font-medium font-sans'>Sahil Panwar</h6>
+                   </div>          
+                   <article className='text-pretty px-3 pb-4 pt-2 sm:p-5'>
+                      <p className='text-xs sm:text-sm md:text-base font-light font-sans opacity-80'>
+                        I’m Sahil, a passionate tech enthusiast pursuing BTech in Computer Science. 
+                        Skilled in React, Flutter, and UI/UX, I’m a GDSC core member, hackathon winner, 
+                        and former Semi Hyphen intern, focused on creating impactful digital solutions.
+                        </p></article></div>
             </div>
           </div>
         </div>
