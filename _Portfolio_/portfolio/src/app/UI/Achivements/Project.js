@@ -47,7 +47,7 @@ export function TimelineDemo() {
         <div>
           <p
             className="text-neutral-800 dark:text-neutral-200 text-sm md:text-base font-semibold mb-2">
-              SAHIL Achieved 1st Runner-Up in Smart India Hackathon (SIH) 2023, tackling real-world challenges with innovative solutions on a national stage.
+              Achieved 1st Runner-Up in Smart India Hackathon (SIH) 2023, tackling real-world challenges with innovative solutions on a national stage.
           </p>
           <p
             className="text-blue-600 dark:text-blue-400 italic text-sm md:text-base font-medium mb-8">
