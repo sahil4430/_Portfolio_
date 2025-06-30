@@ -52,10 +52,7 @@ export const Timeline = ({
                 {item.title}
               </h3>
             </div>
-           
-
             <div className="relative pl-20 pr-4 md:pl-4 w-full">
-
               {item.content}{" "}
             </div>
           </div>
